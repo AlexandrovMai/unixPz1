@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75fe0a4b-d5d8-4f39-a55f-b224057626e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/unixPz1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrate_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/time_logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pz1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/install-service.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install-service.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/timeout-logger.sh" beforeDir="false" afterPath="$PROJECT_DIR$/timeout-logger.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +30,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614939681419</updated>
       <workItem from="1614939682667" duration="35000" />
-      <workItem from="1614939719334" duration="2146000" />
+      <workItem from="1614939719334" duration="3071000" />
     </task>
     <servers />
   </component>
@@ -58,6 +51,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="342" y="370" key="#SQL_Dialects" timestamp="1614943427526">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="342" y="370" key="#SQL_Dialects/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1614943427526" />
     <state x="743" y="283" key="FileChooserDialogImpl" timestamp="1614939716837">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
