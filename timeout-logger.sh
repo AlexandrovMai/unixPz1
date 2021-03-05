@@ -1,11 +1,4 @@
 #!/bin/bash
 
-LOG_PATH='/tmp/tm.log'
-echo /dev/null > "$LOG_PATH"
-
-while :
-do
-  current_time=$(($(date +%s%N)/1000000))
-  echo "[$current_time]: im allive" >> "$LOG_PATH"
-  sleep 10
-done
+DB_PATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+dbus-monitor --system "sender=org.freedesktop.NetworkManager, path=/org/freedesktop/NetworkManager, member=StateChanged" | python "$DB_PATH/time_logger.py"
