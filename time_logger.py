@@ -19,7 +19,7 @@ def handle_change(code):
 
     if code == 70:
         session_begin_time = time.time()
-    if code == 20:
+    if code == 20 or code == 40:
         con = sqlite3.connect('{}/ts.db'.format(os.environ['DB_PATH']))  # connecting here to prevent db blocking
         cursor = con.cursor()
         usage_time = time.time() - session_begin_time
